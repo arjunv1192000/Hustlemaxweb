@@ -71,7 +71,7 @@
 
 @media (max-width: 576px) {
     .slider_section .detail-box h1 {
-        font-size: 3.5rem;
+        font-size: 2.5rem;
     }
 
     .do_section .do_container .arrow_bg::before {
@@ -83,11 +83,11 @@
 
 @media (max-width: 420px) {
     .slider_section .detail-box h2 {
-        font-size: 1.5rem;
+        font-size: 1rem;
     }
 
     .slider_section .detail-box h1 {
-        font-size: 3rem;
+        font-size: 2rem;
     }
 }
 
