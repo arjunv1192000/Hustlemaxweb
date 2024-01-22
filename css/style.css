@@ -1,5 +1,5 @@
 body {
-  font-family: "Poppins", sans-serif;
+  font-family: Candara ;
   color: #000000;
   background-color: #ffffff;
 }
@@ -228,12 +228,14 @@ a:focus {
 }
 
 .slider_section .detail-box h1 {
-  font-size: 3rem;
+  font-size: 2.5rem;
   text-transform: uppercase;
 }
 
 
+
 .slider_section .detail-box h2 {
+  font-size: 1.5rem;
   text-transform: uppercase;
 }
 
