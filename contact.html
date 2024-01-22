@@ -155,10 +155,10 @@
                     <input type="email" placeholder="Email Address" class="email">
                   </div>
                   <div>
-                    <input type="text" placeholder="Message"  class="message">
+                    <input type="text" placeholder="Message" class="message">
                   </div>
                   <div class="d-flex justify-content-center">
-                    <button type="submit" class="btn_on-hover" >
+                    <button type="submit" class="btn_on-hover">
                       Send
                     </button>
                   </div>
@@ -181,7 +181,7 @@
     function sendMsg(e) {
       e.preventDefault();
 
-      
+
 
 
       const name = form.querySelector('.name').value.trim();
@@ -206,23 +206,23 @@
         ${message}
       `;
 
-      
+
 
       Email.send({
         SecureToken: "b5ae3fa7-fc07-4285-81fe-8515a90e5767",
         To: 'contact@hustlemaxmerchants.com',
         From: "contact@hustlemaxmerchants.com",
         Subject: "Contactform",
-        Body:emailBody,
+        Body: emailBody,
       }).then(
         message => {
-      alert("Submission successful!");
-      form.reset(); 
-    }
+          alert("Submission successful!");
+          form.reset();
+        }
       );
 
     }
-    form.addEventListener('submit',sendMsg)
+    form.addEventListener('submit', sendMsg)
 
 
   </script>
@@ -263,13 +263,21 @@
               </p>
             </div>
             <div>
-              <a class="nav-link" href="privacy.html">
+              <a href="privacy.html">
                 <p style="color: azure;">
                   Privacy Policy
                 </p>
 
+
               </a>
-              
+              <a class="nav-link" href="terms.html">
+                <p style="color: azure;">
+                  Terms & Conditions
+                </p>
+
+
+              </a>
+
             </div>
           </div>
         </div>
@@ -296,7 +304,8 @@
               <a href="https://x.com/hustlemaxx?s=21" target="new">
                 <img src="images/twitter.png" alt="">
               </a>
-              <a href="https://www.linkedin.com/in/hustle-max-8892632ab?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="new">
+              <a href="https://www.linkedin.com/in/hustle-max-8892632ab?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
+                target="new">
                 <img src="images/linkedin.png" alt="">
               </a>
 
