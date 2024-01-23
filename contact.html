@@ -194,10 +194,12 @@
         return;
       }
 
-      console.log(name, email, phone, message);
+      
 
 
-      const emailBody = `Name: ${name}\nPhone: ${phone}\nEmail: ${email}\n\nMessage:\n${message}`;
+      const emailBody = `Name: ${name}\t Phone: ${phone}\t Email: ${email}\t\t Message:\t${message}`;
+
+      console.log(emailBody);
 
 
 
@@ -209,7 +211,7 @@
         Body: emailBody,
       }).then(
         message => {
-          alert("Submission successful!");
+          alert("Submission Successful!");
           form.reset();
         }
       );

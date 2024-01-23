@@ -80,6 +80,7 @@ body {
   background-color: #b5caee;
   background-image: url(../images/main1.jpg);
   background-size: cover;
+  
 }
 
 .hero_area::before {
