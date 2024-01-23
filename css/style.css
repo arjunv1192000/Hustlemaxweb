@@ -1,5 +1,6 @@
+
 body {
-  font-family: Candara ;
+  font-family: Candara,sans-serif ;
   color: #000000;
   background-color: #ffffff;
 }
@@ -292,8 +293,8 @@ a:focus {
 }
 @media (max-width: 767px) {
   .do_section .do_container {
-      flex-direction: column; /* Display items in a single column on mobile devices */
-      align-items: center; /* Center items horizontally */
+      flex-direction: column; 
+      align-items: center; 
   }
 }
 
@@ -330,6 +331,25 @@ a:focus {
 
 .do_section .do_container .box:hover .img-box {
   background-color: #d9c57c;
+}
+
+@media only screen and (max-width: 767px) {
+  .do_section .do_container .box .img-box {
+    width: 80px; /* Adjust the size for mobile screens */
+    height: 80px; /* Adjust the size for mobile screens */
+  }
+
+  .do_section .do_container .box .img-box img {
+    width: 30px; /* Adjust the size for mobile screens */
+  }
+  
+  .do_section .do_container .box .detail-box {
+    margin-top: 20px; /* Adjust spacing for mobile screens */
+  }
+
+  .do_section .do_container .box:hover .img-box {
+    background-color: #d9c57c; /* Maintain the hover effect on mobile screens if needed */
+  }
 }
 
 .do_section .do_container .arrow_bg::before {

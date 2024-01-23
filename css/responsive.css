@@ -71,10 +71,10 @@
 
 @media (max-width: 576px) {
     .slider_section .detail-box h1 {
-        font-size: 20px;
+        font-size: 16px;
     }
     .slider_section .detail-box h2 {
-        font-size: 16px;
+        font-size: 18px;
     }
 
     .do_section .do_container .arrow_bg::before {
@@ -86,7 +86,7 @@
 
 @media (max-width: 420px) {
     .slider_section .detail-box h2 {
-        font-size: 10px;
+        font-size: 18px;
     }
 
     .slider_section .detail-box h1 {
