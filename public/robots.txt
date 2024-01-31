@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://hustlemaxmerchants.com/sitemap.xml
